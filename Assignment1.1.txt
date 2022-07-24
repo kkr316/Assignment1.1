@@ -1,0 +1,120 @@
+Q What is the use of self in Python?
+Self is used to represent the instance of the class. With this keyword, you can access the attributes and methods of the class in python.
+ It binds the attributes with the given arguments. self is used in different places and often thought to be a keyword. But unlike in C++, self is not a keyword in Python.
+
+Q What is __init__?
+__init__ is a contructor method in Python and is automatically called to allocate memory when a new object/instance is created.
+ All classes have a __init__ method associated with them. It helps in distinguishing methods and attributes of a class from local variables.
+
+Q What does immutable mean and what three types of Python core data types are considered immutable?
+An immutable data type is a type of object which cannot be modified after its creation. Numbers, strings, and tuples in Python fall into this category.
+ Although you cannot modify an immutable object in place, you can always create a new one by running an expression.
+
+Q What is polymorphism and why should you care?
+Polymorphism means that the meaning of an operation (like a+) depends on the objects being operated. 
+This turns out to be a key idea behind good use of Python, not coercing code to specific types makes that code automatically applied to many types.
+
+
+Q Which loop in Python is a counter-controlled loop?
+In Python, for loop is a counter-controlled loop. The counter determines how many times the for loop executes
+
+Q. What are negative indexes and why are they used?
+The sequences in Python are indexed and it consists of the positive as well as negative numbers.
+ The numbers that are positive uses ‘0’ that is uses as first index and ‘1’ as the second index and the process goes on like that.
+The index for the negative number starts from ‘-1’ that represents the last index in the sequence and ‘-2’ as the penultimate index and the sequence carries 
+forward like the positive number.
+The negative index is used to remove any new-line spaces from the string and allow the string to except the last character that is given as S[:-1]. 
+The negative index is also used to show the index to represent the string in correct order
+
+Q How do you do data abstraction in Python?
+Data Abstraction is providing only the required details and hiding the implementation from the world. 
+It can be achieved in Python by using interfaces and abstract classes.
+
+Q. How do you get a list of all the keys in a dictionary?
+Be specific in these type of Python Interview Questions and Answers.
+For this, we use the function keys().
+
+Q What is slicing?
+Slicing is a technique that allows us to retrieve only a part of a list, tuple, or string. For this, we use the slicing operator [].
+
+
+Q.How will you convert a list into a string?
+We will use the join() method for this.
+
+Q How will you remove a duplicate element from a list?
+We can turn it into a set to do that.
+
+
+Q.Explain logical operators in Python.
+We have three logical operators- and, or, not.
+
+Q.Explain Python List Comprehension.
+The list comprehension in python is a way to declare a list in one line of code. Let’s take a look at one such example.
+[i*2 for i in range(1,11,2)]
+
+
+Q.How can you declare multiple assignments in one statement?
+a,b,c=3,4,5
+a=b=c=3
+
+
+Q.What are global, protected, and private attributes in Python?
+The attributes of a class are also called variables. There are three access modifiers in Python for variables, namely
+
+a.  public – The variables declared as public are accessible everywhere, inside or outside the class.
+
+b. private – The variables declared as private are accessible only within the current class.
+
+c. protected – The variables declared as protected are accessible only within the current package.
+
+Q.What are Literals in Python and explain about different Literals?
+Literals in Python refer to the data that is given in a variable or constant. Python has various kinds of literal including:
+
+String Literals: It is a sequence of characters enclosed in codes. There can be single, double, and triple strings based on the number of quotes used. Character literals are single characters surrounded by single or double quotes. 
+Numeric Literals: These are unchangeable kinds and belong to three different types – integer, float, and complex.
+Boolean Literals: They can have either of the two values- True or False which represent ‘1’ and ‘0’ respectively. 
+Special Literals: Special literals are sued to classify fields that are not created. It is represented by the value ‘none’
+
+
+Q.What is the bytes() function?
+The bytes() function returns a bytes object. It is used to convert objects into bytes objects or create empty bytes objects of the specified size.
+
+Q.What is split() function used for?
+Split fuction is used to split a string into shorter string using defined seperatos. letters= (” A, B, C”)
+n = text.split(“,”)
+print(n)
+
+o/p: [‘A’, ‘B’, ‘C’ ]
+
+Q. How to remove spaces from a string in Python?
+Spaces can be removed from a string in python by using strip() or replace() functions. 
+Strip() function is used to remove the leading and trailing white spaces while the replace() function is used to remove all the white spaces in the string:
+
+string.replace(” “,””)
+ex1: str1= “great learning”
+print (str.strip())
+o/p: great learning
+
+ex2: str2=”great learning”
+print (str.replace(” “,””))
+o/p: greatlearning
+
+Q. Explain the file processing modes that Python supports.
+There are three file processing modes in Python: read-only(r), write-only(w), read-write(rw) and append (a). So, if you are opening a text file in say, read mode. The preceding modes become “rt” for read-only, “wt” for write and so on.
+ Similarly, a binary file can be opened by specifying “b” along with the file accessing flags (“r”, “w”, “rw” and “a”) preceding it.
+
+Q. How is memory managed in Python?
+Memory management in python comprises of a private heap containing all objects and data stucture. The heap is managed by the interpreter and the programmer does not have acess to it at all. 
+The Python memory manger does all the memory allocation. Moreover, there is an inbuilt garbage collector that recycles and frees memory for the heap space.
+
+Q. Explain what packages in Python are.
+In Python, a package is basically a directory with Python files. Candidates might mention that a package in Python is beneficial for structuring a module namespace.
+ They also might go on to explain that many modules can be put into packages and that these files will be named _init_.py.
+
+Q. What are some examples of inheritance in Python? What does inheritance do?
+If an engineer wanted to enable one class to get every member from another class, they could do this with inheritance. 
+might also mention the advantages of inheritance, which enables engineers to reuse code with very little difficulty as far as application maintenance is concerned, before describing the main types of inheritance:
+Multiple inheritances, in which one derived class gets inherited from several base classes
+Hierarchical inheritance, in which it’s possible to inherit several child classes from a single base class
+Single inheritance, in which a single derived class inherits from one superclass.
+
